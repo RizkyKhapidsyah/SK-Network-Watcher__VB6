@@ -1,0 +1,91 @@
+[Root]
+Most Recent Package=Net Watch V2.0
+
+
+[Package|Net Watch V2.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Visual Basic\SpeedoNetMeter\V1.7\package
+
+[Package|Net Watch V2.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Net Watch V2.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Net Watch V2.0|Files Found]
+
+[Package|Net Watch V2.0|Files Released]
+
+[Package|Net Watch V2.0|Missing Dependency Information]
+C:\WINNT\system32\iphlpapi.dll=
+
+[Package|Net Watch V2.0|Out-of-Date Dependency Information]
+
+[Package|Net Watch V2.0|Files Added]
+
+[Package|Net Watch V2.0|Files Removed]
+
+[Package|Net Watch V2.0|Files In Project]
+D:\Visual Basic\SpeedoNetMeter\V1.7\netmeterV7.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\iphlpapi.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Net Watch V2.0|Configure Registry Files]
+Applicable=No
+
+[Package|Net Watch V2.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Net Watch V2.0|Install Locations]
+D:\Visual Basic\SpeedoNetMeter\V1.7\netmeterV7.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\iphlpapi.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Net Watch V2.0|Configure Shared Files]
+Applicable=Yes
+D:\Visual Basic\SpeedoNetMeter\V1.7\netmeterV7.exe=No
+
+[Package|Net Watch V2.0|Distribution]
+Type=single
+Size=
+Title=NetWatch V2.0 by Peter Verburgh..
+
+[Package|Net Watch V2.0|IconGroups]
+Group0=NetWatch V2.0 by Peter Verburgh..
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Net Watch V2.0|NetWatch V2.0 by Peter Verburgh..]
+Icon1=netmeterV7.exe
+Title1=NetWatch V2.0 by Peter Verburgh..
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Net Watch V2.0|Package]
+PackageFolder=D:\Visual Basic\SpeedoNetMeter\V1.7\package
+ProjectFolder=D:\Visual Basic\SpeedoNetMeter\V1.7
+ServerSideCab=
+File1=D:\Visual Basic\SpeedoNetMeter\V1.7\package\setup.exe
+File2=D:\Visual Basic\SpeedoNetMeter\V1.7\package\Setup.Lst
+File3=D:\Visual Basic\SpeedoNetMeter\V1.7\package\netmeterV7.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
